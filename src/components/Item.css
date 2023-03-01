@@ -40,4 +40,13 @@
     border-radius: 30px;
     margin: 10px;
 }
+.btn-custom-color {
+    background-color: #b20510;
+    border-color: #b20510;
+}
 
+.btn-custom-color:hover {
+    background-color: #fff;
+    border-color: #b20510;
+    color:#b20510
+}

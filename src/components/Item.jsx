@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './Item.css';
 import { Button } from "react-bootstrap";
@@ -13,7 +14,7 @@ function Item({product}) /* muestra de producto */ {
             <h5 className="card-title">{product.name}</h5>
             <p>S/. {product.price}</p>
             <p className="card-text">{product.description}</p>
-            <Button variant="primary">Agregar al carrito</Button>     
+            <Button variant="primary" className='btn-custom-color'>Agregar al carrito</Button>     
         </div>
       </div>
     )
