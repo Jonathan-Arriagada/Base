@@ -1,0 +1,52 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b20510;
+    color:#fff;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-weight: bold;  
+}
+
+.Navbar p {
+   margin: 0;
+}
+
+.brand-logo {
+    background-image: url('../img/streamingFeximage.jpg');
+    width: 150px;
+    height: 75px;
+    border-radius: 20px;
+    margin: 5px 0px;
+}
+.navbar-items{
+    margin: 0;
+    display: flex;
+    padding-right: 1.8rem;
+}
+.navbar-item {
+    list-style: none;
+    padding: 1.8rem;
+}
+.nolink{
+    text-decoration: none;
+    color: #000;
+}
+.nolink2{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-links li:hover {
+    background-color: #671429;
+}
+
+.left-nav {
+    display:flex;
+    align-items: center;
+}
+
+.logo {
+    width: fit-content;
+    height: 100px;
+}
