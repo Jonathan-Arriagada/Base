@@ -1,0 +1,16 @@
+.comboContainer {
+    width: auto;
+    height: fit-content;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid #b20510;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin: 3rem;
+}
+
+.price {
+    margin-left: 1rem;
+}

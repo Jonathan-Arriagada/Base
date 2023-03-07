@@ -8,7 +8,7 @@ function ItemList({ products }) {
       {products.map(thisproduct => {
         return (
           <>
-          <Item product={thisproduct} key={thisproduct.id} className="d-flex" />
+          <Item product={thisproduct} key={thisproduct.id} />
           </>
         )   
       })

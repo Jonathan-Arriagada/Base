@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import CartWidget from "./CartWidget";
 
 function Navbar() {
+
   return (
     <header>
       <nav className="Navbar">

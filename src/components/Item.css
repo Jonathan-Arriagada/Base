@@ -24,6 +24,8 @@
 
 .tarjeta-body{
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .fuente-blanca{
@@ -48,5 +50,5 @@
 .btn-custom-color:hover {
     background-color: #fff;
     border-color: #b20510;
-    color:#b20510
+    color:#b20510;
 }
